@@ -1,4 +1,5 @@
 import React from 'react'
+import Navbar from './Navbar'
 
 const Header = () => {
   return (
@@ -18,7 +19,7 @@ const Header = () => {
                     menu
                   </span>
                 </button>
-                Navbar
+                <Navbar />
               </div>
 
               <a href="#contact" className="">Contact Me</a>
