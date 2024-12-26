@@ -31,7 +31,7 @@ body {
 }
 
 .nav-link {
-  @apply grid items-center h-10 px-4 text-sm font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50 
+  @apply grid items-center h-9 px-4 text-sm font-medium tracking-wide text-zinc-50/50 hover:text-zinc-50 
   transition-colors;
 }
 
@@ -41,4 +41,14 @@ body {
 
 .navbar .active-box {
   @apply absolute bg-zinc-500 rounded-lg -z-10 transition-[top,left] duration-500
+}
+
+/* Contact Me Button */
+.btn {
+  @apply max-w-max h-9 flex items-center gap-2 px-4 rounded-xl font-medium text-sm ring-1 ring-zinc-50/5 
+  ring-inset transition-[background-color]
+}
+
+.btn-secondary {
+  @apply bg-zinc-50 text-zinc-900 active:bg-zinc-50/80;
 }
