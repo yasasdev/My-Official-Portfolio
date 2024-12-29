@@ -19,14 +19,14 @@ const Hero = () => {
                         className="img-cover" 
                         />
                     </figure>
-                    <div className="">
-                        <span className="">
-                            <span className=""></span>
+                    <div className="flex items-center gap-1.5 text-zinc-400 text-sm tracking-wide">
+                        <span className="relative w-2 h-2 rounded-full bg-emerald-400">
+                            <span className="absolute inset-0 rounded-full bg-emerald-400 animate-ping"></span>
                         </span>
                         Available for work
                     </div>
                 </div>
-                <h2 className="">
+                <h2 className="headline-1 max-w-[15ch] sm:max-w-[20ch] lg:max-w-[15ch] mt-5 mb-8 lg:mb-10">
                     Building Scalable Modern Websites for the Future
                 </h2>
                 <div className="">
@@ -44,6 +44,7 @@ const Hero = () => {
                     height={800} 
                     alt="Yasas Lekamge" 
                     className="w-full" 
+                    // className="w-[656px] h-[490px]"
                     />
                 </figure>
             </div>
