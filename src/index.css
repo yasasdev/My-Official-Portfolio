@@ -20,7 +20,7 @@ body {
 }
 
 .headline-1 {
-  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15];
+  @apply text-5xl leading-tight font-semibold lg:text-[55px] lg:leading-[1.15] text-center;
 }
 
 /* Utilities */
@@ -39,6 +39,10 @@ body {
 
 .img-cover {
   @apply w-full h-full object-cover;
+}
+
+.section {
+  @apply pt-10 lg:pt-20;
 }
 
 /* COMPONENTS */
