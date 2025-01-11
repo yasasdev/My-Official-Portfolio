@@ -1,4 +1,5 @@
-import React from 'react'
+import React from 'react';
+import SkillCard from './SkillCard';
 
 const skillItem = [
     {
@@ -60,7 +61,12 @@ const Skills = () => {
         <div className="">
           {
             skillItem.map(({ imgSrc, label, desc }, key) => (
-              'skillCard'
+              <SkillCard 
+                key={key}
+                imgSrc={imgSrc}
+                label={label}
+                desc={desc}
+              />
             ))
           }
         </div>
